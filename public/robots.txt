@@ -1,0 +1,15 @@
+# BASE Events Robots.txt
+# Update YOUR_DOMAIN_HERE with your actual domain
+
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: YOUR_DOMAIN_HERE/sitemap.xml
+
+# Crawl delay (optional, helps with server load)
+Crawl-delay: 1
